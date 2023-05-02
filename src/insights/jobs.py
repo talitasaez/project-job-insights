@@ -10,7 +10,7 @@ def read(path: str) -> List[Dict]:
         job_list = []
         for job in content:
             job_list.append(job)
-    return job
+    return job_list
 
 
 def get_unique_job_types(path: str) -> List[str]:
